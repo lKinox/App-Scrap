@@ -1,0 +1,36 @@
+.Footer {
+    width: 100%;   
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Footer-row {
+    max-width: 1920px;
+    width: 100%;
+    padding: 20px 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    margin: 0px 40px;
+}
+
+.Footer ul {
+    margin: 15px 0px !important;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.Footer ul li:before {
+    content: '' !important;
+}
+
+.Footer ul li a{
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px;
+}
+
+.Footer p a{
+    text-decoration: underline !important;
+}
