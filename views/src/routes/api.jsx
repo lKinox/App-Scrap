@@ -17,8 +17,8 @@ function ProductList() {
 
       try {
         const [gamaResponse, plazaResponse] = await Promise.all([
-          fetch('http://localhost:5000/api/products/gama'),
-          fetch('http://localhost:5000/api/products/plazas')
+          fetch('https://app-scrap.onrender.com/api/products/gama'),
+          fetch('https://app-scrap.onrender.com/api/products/plazas')
         ]);
 
         const gamaData = await gamaResponse.json();
