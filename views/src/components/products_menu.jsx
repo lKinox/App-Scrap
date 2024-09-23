@@ -14,8 +14,8 @@ function ProductMenu({ onCategorySelect }) {
     setIsLoading(true);
   
     Promise.all([
-      fetch('http://localhost:5000/api/products/gama'),
-      fetch('http://localhost:5000/api/products/plazas')
+      fetch('https://app-scrap.onrender.com/api/products/plazas'),
+      fetch('https://app-scrap.onrender.com/api/products/plazas')
     ])
     .then(responses => Promise.all(responses.map(response => response.json())))
     .then(data => {
