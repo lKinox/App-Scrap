@@ -18,7 +18,7 @@ var app = express();
 
 app.use((req, res, next) => {
     res.set("Access-Control-Allow-Credentials", "true");
-    res.set("Access-Control-Allow-Origin", "https://appscrap.netlify.app/");
+    res.set("Access-Control-Allow-Origin", "https://appscrap.netlify.app");
     res.set("Access-Control-Allow-Headers", "Content-Type");
     res.set("Access-Control-Allow-Methods", "OPTIONS,GET,PUT,POST,DELETE");
     next();
