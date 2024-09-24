@@ -6,4 +6,4 @@ Esta aplicación web está desarrollada con React y NodeJS con Express. Recupera
 
 Demo disponible en: 
 
-[link](https://appscrap.netlify.app/)
+[Demo](https://appscrap.netlify.app/)
