@@ -49,3 +49,29 @@
 .single-product li{
     margin: 0px;
 }
+
+@media screen and (max-width: 525px) {
+    .single-product li {
+        gap: 6px;
+        margin-bottom: 10px !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .single-product li small{
+        font-size: 0.7rem;
+    }
+    .single-product li span {
+        font-size: 12px !important;
+        font-weight: 700;
+    }
+    .product-list {
+        margin: 5px 0px;
+    }
+    .product-list h4{
+        font-size: 1rem;
+    }
+    .products-row {
+        grid-column-gap: 10px;
+    }
+}

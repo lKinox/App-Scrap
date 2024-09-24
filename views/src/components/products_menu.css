@@ -63,3 +63,26 @@
 .products-row {
     margin: 0px;
 }
+
+@media screen and (max-width: 525px) {
+    .single-product li {
+        gap: 6px;
+        margin-bottom: 10px !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .product-menu button{
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .product-menu {
+        margin: 10px 0px;
+        width: 33%;
+        padding: 0px;
+    }
+    .product-menu-row {
+        gap: 5px;
+    }
+
+}

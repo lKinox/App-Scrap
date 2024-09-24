@@ -34,3 +34,15 @@
 .Footer p a{
     text-decoration: underline !important;
 }
+
+@media screen and (max-width: 525px) {
+    .Footer-row {
+        margin: 0px 15px;
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+    .Footer-row ul{
+        flex-wrap: wrap;
+    }
+}
