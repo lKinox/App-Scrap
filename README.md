@@ -6,4 +6,6 @@ Esta aplicación web está desarrollada con React y NodeJS con Express. Recupera
 
 Demo disponible: 
 
+Utilizo un servidor Node.js en Render para desplegar esta app por lo que tarda 50 segundos en reactivarse cuando pasa un tiempo sin ser usada. Por favor espere los 50 segundos cuando entre por primera vez a probar la demo!
+
 [Demo](https://appscrap.netlify.app/)
